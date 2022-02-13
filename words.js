@@ -1,7 +1,6 @@
 const words = [
-    'bottom',
-    'weka',
     'leish',
+    'weka',
     'buttbert',
     'stuck',
     'kapiti',
@@ -10,7 +9,7 @@ const words = [
     'dance',
     'climbing',
     'jase',
-    'jason',
+    'bottom',
     'mobil',
     'uno',
     'omarama',
@@ -19,6 +18,7 @@ const words = [
     'coupon',
     'bachelor',
     'blind',
+    'jason',
     'boo',
     'dickies',
     'fish'

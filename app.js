@@ -6,7 +6,7 @@ let wordle
 let letterCount
 let guessRows = []
 
-let startDate = new Date(2022, 1, 1)
+let startDate = new Date(2022, 1, 13)
 
 const getWordle = () => {
     let currentDate = Date.now()
@@ -61,7 +61,6 @@ const keys = [
     'J',
     'K',
     'L',
-    'ENTER',
     'Z',
     'X',
     'C',
@@ -69,7 +68,8 @@ const keys = [
     'B',
     'N',
     'M',
-    '«',
+    '👎',
+    '👌',
 ]
 
 let currentRow = 0
@@ -79,10 +79,10 @@ let isGameOver = false
 const handleClick = (letter) => {
     if (!isGameOver) {
         console.log('clicked', letter)
-        if (letter === '«') {
+        if (letter === '👎') {
             deleteLetter()
             return
-        } if (letter === 'ENTER') {
+        } if (letter === '👌') {
             checkRow()
             return
         }
@@ -185,3 +185,29 @@ keys.forEach(key => {
     buttonElement.addEventListener('click', () => handleClick(key))
     keyboard.append(buttonElement)
 })
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}

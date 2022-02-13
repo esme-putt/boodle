@@ -1,6 +1,6 @@
 const words = [
     'leish',
-    'weka',
+    'mobil',
     'buttbert',
     'stuck',
     'kapiti',
@@ -10,7 +10,6 @@ const words = [
     'climbing',
     'jase',
     'bottom',
-    'mobil',
     'uno',
     'omarama',
     'camping',

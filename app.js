@@ -39,7 +39,8 @@ const getWordle = () => {
         tileDisplay.append(rowElement)
     })
 }
-getWordle()
+
+window.onload = getWordle()
 
 const keys = [
     'Q',

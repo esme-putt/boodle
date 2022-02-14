@@ -8,7 +8,7 @@ let guessRows = []
 
 let startDate = new Date(2022, 1, 13)
 
-const getWordle = () => {
+window.onload = () => {
     let currentDate = Date.now()
     let dateDiff = Math.floor((currentDate - startDate) / 1000 / 60 / 60 / 24)
     console.log(dateDiff)
@@ -39,8 +39,6 @@ const getWordle = () => {
         tileDisplay.append(rowElement)
     })
 }
-
-window.onload = getWordle()
 
 const keys = [
     'Q',

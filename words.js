@@ -1,6 +1,6 @@
 const words = [
-    'mobil',
-    'leish',
+    'hi',
+    'test',
     'stuck',
     'kapiti',
     'queer',
@@ -20,5 +20,13 @@ const words = [
     'jason',
     'boo',
     'dickies',
-    'fish'
+    'fish',
+    'topten',
+    'splitwise',
+    'communication',
+    'brene',
+    'molly',
+    'tapeworm',
+    'puffin',
+    'spa'
 ]

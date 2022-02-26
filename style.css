@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
 }
 
 .title-container {
@@ -26,17 +27,21 @@ body {
 
 .tile-container {
     width: 330px;
-    max-width: 100%;
+    min-width: 330px;
+    max-width: 100% !important;
     align-content: center;
     margin-bottom: 30px;
 }
 
 .key-container {
     max-width: 100%;
-    width: 510px;
-    display: flex;
-    flex-wrap: wrap;
+    align-content: center;
+}
+
+.key-container-row-1, .key-container-row-2, .key-container-row-3 {
     align-items: center;
+    max-width: 100%;
+    display: flex;
 }
 
 .key-container button {
@@ -47,13 +52,12 @@ body {
     background-color: #05B2DC;
     color: #ffffff;
     margin: 4px;
-    min-width: 10%;
-}
+    align-content: center;
+    align-items: center;
+ }
 
-.key-container button:nth-child(27),
-.key-container button:nth-child(28) {
-    width: 68px !important;
-    flex-grow: 2;
+.key-container-row-3 button:nth-child(8) {
+    flex-grow: 2 !important;
 }
 
 .tile-container div {
@@ -61,8 +65,8 @@ body {
 }
 
 .tile-container .tile {
-    width: 80px;
-    height: 40px;
+    width: 120px;
+    height: 54px;
     border: 3px solid#ffffff;
     box-sizing: border-box;
     display: flex;

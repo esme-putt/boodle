@@ -1,5 +1,7 @@
 const tileDisplay = document.querySelector('.tile-container')
-const keyboard = document.querySelector('.key-container')
+const keyboardRow1 = document.querySelector('.key-container-row-1')
+const keyboardRow2 = document.querySelector('.key-container-row-2')
+const keyboardRow3 = document.querySelector('.key-container-row-3')
 const messageDisplay = document.querySelector('.message-container')
 
 let wordle
@@ -42,7 +44,7 @@ const getWordle = () => {
 
 getWordle()
 
-const keys = [
+const keysRow1 = [
     'Q',
     'W',
     'E',
@@ -53,6 +55,9 @@ const keys = [
     'I',
     'O',
     'P',
+]
+
+const keysRow2 = [
     'A',
     'S',
     'D',
@@ -62,6 +67,10 @@ const keys = [
     'J',
     'K',
     'L',
+    '👎',
+]
+
+const keysRow3 = [
     'Z',
     'X',
     'C',
@@ -69,7 +78,6 @@ const keys = [
     'B',
     'N',
     'M',
-    '👎',
     '👌',
 ]
 
@@ -179,12 +187,28 @@ const flipTile = () => {
     })
 }
 
-keys.forEach(key => {
+keysRow1.forEach(key => {
     const buttonElement = document.createElement('button')
     buttonElement.textContent = key
     buttonElement.setAttribute('id', key)
     buttonElement.addEventListener('click', () => handleClick(key))
-    keyboard.append(buttonElement)
+    keyboardRow1.append(buttonElement)
+})
+
+keysRow2.forEach(key => {
+    const buttonElement = document.createElement('button')
+    buttonElement.textContent = key
+    buttonElement.setAttribute('id', key)
+    buttonElement.addEventListener('click', () => handleClick(key))
+    keyboardRow2.append(buttonElement)
+})
+
+keysRow3.forEach(key => {
+    const buttonElement = document.createElement('button')
+    buttonElement.textContent = key
+    buttonElement.setAttribute('id', key)
+    buttonElement.addEventListener('click', () => handleClick(key))
+    keyboardRow3.append(buttonElement)
 })
 
 // Get the modal

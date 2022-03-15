@@ -28,5 +28,12 @@ const words = [
     'molly',
     'tapeworm',
     'puffin',
-    'spa'
+    'spa',
+    'doctor',
+    'burger',
+    'corona',
+    'survivor',
+    'january',
+    'love',
+    'baby'
 ]

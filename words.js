@@ -1,4 +1,4 @@
-const words = [
+const v1Words = [
     'hi',
     'test',
     'stuck',
@@ -35,5 +35,32 @@ const words = [
     'survivor',
     'january',
     'love',
-    'baby'
+    'baby',
+    'foxton',
+    'willis',
+    'prayer',
+    'cooking',
+    'seats',
+    'wetsuit',
+    'pottom',
+    'apology',
+    'silly',
+    'lego',
+    'roadie',
+    'hichew'
+]
+
+const words = [
+    'foxton',
+    'willis',
+    'prayer',
+    'cooking',
+    'seats',
+    'wetsuit',
+    'pottom',
+    'apology',
+    'silly',
+    'lego',
+    'roadie',
+    'hichew'
 ]

@@ -8,7 +8,7 @@ let wordle
 let letterCount
 let guessRows = []
 
-let startDate = new Date(2022, 4, 4)
+let startDate = new Date(2022, 3, 4)
 
 const getWordle = () => {
     let currentDate = Date.now()

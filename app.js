@@ -16,6 +16,9 @@ const getWordle = () => {
     console.log(dateDiff)
 
     wordle = words[dateDiff].toUpperCase()
+    if (wordle == nil) {
+        wordle = "tester"
+    }
     console.log(wordle)
     letterCount = wordle.length
 

@@ -2,6 +2,8 @@
 
 <h4> A Wordle Clone created as a Valentines Day present for my girlfriend </h4>
 
+Inspired by/huge credit to [this tutorial](https://www.youtube.com/watch?v=mpby4HiElek&ab_channel=CodewithAniaKub%C3%B3w) by Ania Kubów
+
 Visit at: [Boodle](boodle.hostman.com)
 
 <img width="1116" alt="Screen Shot 2022-05-26 at 3 56 17 PM" src="https://user-images.githubusercontent.com/45341261/170412922-0175e3e1-b956-478d-af16-b80ddb78ae86.png">

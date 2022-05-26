@@ -15,8 +15,9 @@ const getWordle = () => {
     let dateDiff = Math.floor((currentDate - startDate) / 1000 / 60 / 60 / 24)
     console.log(dateDiff)
 
-    wordle = words[dateDiff].toUpperCase()
-    if (wordle == nil) {
+    if (words[dateDiff] != nil) {
+        wordle = words[dateDiff].toUpperCase()
+    } else {
         wordle = "tester"
     }
     console.log(wordle)
